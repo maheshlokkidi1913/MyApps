@@ -17,7 +17,7 @@
     "ui5-task-zipper": "^0.5.0",
     "mbt": "^1.2.18"
   },
-  "scripts": {
+  "scripts": {   
     "start": "fiori run --open \"test/flpSandbox.html?sap-ui-xx-viewCache=false#comsapmybankdetails-display\"",
     "start-local": "fiori run --config ./ui5-local.yaml --open \"test/flpSandbox.html?sap-ui-xx-viewCache=false#comsapmybankdetails-display\"",
     "build": "ui5 build --config=ui5.yaml --clean-dest --dest dist",
@@ -31,7 +31,7 @@
     "build:mta": "rimraf resources mta_archives && mbt build",
     "undeploy": "cf undeploy com-sap-mybankdetails --delete-services --delete-service-keys --delete-service-brokers"
   },
-  "ui5": {
+  "ui5": {    
     "dependencies": [
       "@sap/ux-ui5-tooling",
       "@sap/ui5-builder-webide-extension",
