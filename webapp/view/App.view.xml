@@ -21,6 +21,11 @@
                     type="Emphasized"
                     text="{i18n>home}"
                 />
+                    <Button
+                    id="New Button"
+                    type="Emphasized"
+                    text="{i18n>home}"
+                />
             </headerContent>
             <content>
                 <!-- Bank Details Fragment -->
