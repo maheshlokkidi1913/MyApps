@@ -22,7 +22,7 @@
                     text="{i18n>home}"
                 />
                     <Button
-                    id="New Button"
+                    id="jyj"
                     type="Emphasized"
                     text="{i18n>home}"
                 />
@@ -43,7 +43,7 @@
                     class="sapUiResponsiveContentPadding"
                 >
                     <items>
-                        <IconTabFilter
+                        <IconTabFilter id="_IDGenIconTabFilter"
                             text="Card Details"
                             key="CardDetails"
                         >
